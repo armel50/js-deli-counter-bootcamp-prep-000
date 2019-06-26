@@ -8,7 +8,7 @@ function takeANumber(lineOfpeople,newPerson){
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length===0){
-    return "There is nobody waiting to be served"
+    return "There is nobody waiting to be served!"
   }
   for(var i =0; i<katzDeliLine.length;i++){
     console.log(katzDeliLine[i]) ;

@@ -21,8 +21,8 @@ function nowServing(katzDeliLine){
   if(array.length===0){
     return "There is nobody waiting to be served!";
   }else{
-    for(var i = 0;i<array.length;i++){
-      shiftTheArray();
+    for(var i = 0;i<katzDeliLine.length;i++){
+      return 
     }
     
     

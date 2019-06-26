@@ -5,12 +5,12 @@ function takeANumber(lineOfpeople,newPerson){
   return `Welcome, ${newPerson}. You are number ${lineOfpeople.indexOf(newPerson)+1} in line.`;
   
 }
-
+var array = [];
 function shiftTheArray(array){
   array = array
   
 }
-var array = [];
+
 function nowServing(katzDeliLine){
   array = katzDeliLine;
   if(array.length===0){

@@ -7,6 +7,7 @@ function takeANumber(lineOfpeople,newPerson){
 }
 
 function nowServing(katzDeliLine){
+  
   if(katzDeliLine.length===0){
     return "There is nobody waiting to be served!"
   }
@@ -14,14 +15,14 @@ function nowServing(katzDeliLine){
      console.log(`Currently serving ${katzDeliLine[i]}`) ;
     katzDeliLine.shift(katzDeliLine[i]);
   }
-   console.log(`Currently serving ${katzDeliLine[i]}`) ;
+   
 }
 
 function currentLine(katzDeliLine){
   if(katzDeliLine.length ===0){
-    return `The line is currently empty.`
+    return `The line is currently empty.`;
   }
   
-  return
+  
   
 }

@@ -5,19 +5,19 @@ function takeANumber(lineOfpeople,newPerson){
   return `Welcome, ${newPerson}. You are number ${lineOfpeople.indexOf(newPerson)+1} in line.`;
   
 }
+
+function shiftTheArray(array){
+  array = array
+  
+}
 var array = [];
 function nowServing(katzDeliLine){
   array = katzDeliLine;
   if(array.length===0){
     return "There is nobody waiting to be served!"
   }else{
-    return `Currently serving ${array[i]}`;
-  }
-  for(var i =0; i<katzDeliLine.length;i++){
-    
-    nowServing()
-     console.log(`Currently serving ${katzDeliLine[i]}`) ;
-    katzDeliLine.shift(katzDeliLine[i]);
+    shiftTheArray();
+    return `Currently serving ${array[0]}`;
   }
   
    

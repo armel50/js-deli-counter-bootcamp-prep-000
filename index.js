@@ -7,7 +7,9 @@ function takeANumber(lineOfpeople,newPerson){
 }
 
 function nowServing(katzDeliLine){
-  
+  if(katzDeliLine.length=0){
+    return ""
+  }
   for(var i =0; i<katzDeliLine.length;i++){
     console.log(katzDeliLine[i]) ;
     katzDeliLine.shift(katzDeliLine[i]);

@@ -7,7 +7,7 @@ function takeANumber(lineOfpeople,newPerson){
 }
 var array=[];
 var array1 ;
-function shiftTheArray(array){
+function shiftTheArray(){
   if(array.length !==0){
     array1 = array.shift();
   return `Currently serving ${array1}`;

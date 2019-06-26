@@ -5,3 +5,5 @@ function takeANumber(lineOfpeople,newPerson){
   return `Welcome, ${newPerson}. You are number ${lineOfpeople.indexOf(newPerson)+1} in line.`;
   
 }
+
+function nowServing()

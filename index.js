@@ -15,3 +15,4 @@ function nowServing(katzDeliLine){
     katzDeliLine.shift(katzDeliLine[i]);
   }
 }
+

@@ -32,7 +32,7 @@ function currentLine(katzDeliLine){
   }else{
     var string="" ;
     for(var i = 0; i<katzDeliLine.length;i++){
-      string = i+"."
+      string =""+ i+"."
     }
     return string;
     

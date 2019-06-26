@@ -6,4 +6,10 @@ function takeANumber(lineOfpeople,newPerson){
   
 }
 
-function nowServing()
+function nowServing(katzDeliLine){
+  
+  for(var i =0; i<katzDeliLine.length;i++){
+    return katzDeliLine[i];
+    katzDeliLine.shift(katzDeliLine[i]);
+  }
+}

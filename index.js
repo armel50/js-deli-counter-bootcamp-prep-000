@@ -13,7 +13,7 @@ function takeANumber(lineOfpeople,newPerson){
 
 function nowServing(katzDeliLine){
 
-  if(array.length===0){
+  if(katzDeliLine.length===0){
     return "There is nobody waiting to be served!";
   }else{
     for(var i = 0;i<katzDeliLine.length;i++){

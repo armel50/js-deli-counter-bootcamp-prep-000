@@ -9,7 +9,7 @@ function takeANumber(lineOfpeople,newPerson){
 function nowServing(katzDeliLine){
   
   for(var i =0; i<katzDeliLine.length;i++){
-    console.log() katzDeliLine[i];
+    console.log(katzDeliLine[i]) ;
     katzDeliLine.shift(katzDeliLine[i]);
   }
 }
